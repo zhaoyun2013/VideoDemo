@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.videodemo.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/btnLocalIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent本地播放"
+        />
+    
+    <Button
+        android:id="@+id/btnRemoteIntent"
+        android:layout_below="@id/btnLocalIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent网络播放"
+        />
+    
+    <Button
+        android:id="@+id/btnPlayOne"
+        android:layout_below="@id/btnRemoteIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlayOne"
+        />
+    
+    <Button
+        android:id="@+id/btnPlayTwo"
+        android:layout_below="@id/btnPlayOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlayTwo"
+        />
+    
+    <Button
+        android:id="@+id/btnPlayThree"
+        android:layout_below="@id/btnPlayTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlayThree"
+        />
+    
+    <Button
+        android:id="@+id/btnPlayFour"
+        android:layout_below="@id/btnPlayThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlayFour"
+        />
+    
+    <Button
+        android:id="@+id/btnPlayFive"
+        android:layout_below="@id/btnPlayFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlayFive"
+        />
+
+</RelativeLayout>
