@@ -24,7 +24,7 @@ import android.os.Build;
 
 public class PlayOneActivity extends ActionBarActivity {
 	private static final String TAG ="PlayOneActivity";
-	private static Context context;
+	private static Context context;//sjdkfj
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
