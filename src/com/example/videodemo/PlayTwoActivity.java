@@ -30,7 +30,7 @@ import android.view.View.OnClickListener;
  */
 public class PlayTwoActivity extends Activity {
 
-	MediaPlayer mediaPlayer; // 播放器的内部实现是通过MediaPlayer
+	MediaPlayer mediaPlayer; // 播放器的内部实现是通过MediaPlayer 11
 	SurfaceView surfaceView;// 装在视频的容器
 	SurfaceHolder surfaceHolder;// 控制surfaceView的属性（尺寸、格式等）对象 kkk
 	boolean isPause; // 是否已经暂停了 ppp
